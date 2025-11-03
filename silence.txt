@@ -7,20 +7,20 @@
 THEME_NAME			= "Silence"
 
 
-///////////////	ПАЛИТРА
-// 0x93F258	Зелёный мягкий (для текста)
-// 0xDFB8FC	Розовый мягкий (для текста)
-// 0xFCB8C0	Фиолетовый мягкий (для текста)
-// 0xf76356	Фиолетовый насыщенный
-// 0xDA9F9C	Фиолетовый бледный
-// 0x2A1711	Фиолетовый тёмный
-// 0x00FFFF	Жёлтый (для диагностики)
-// 0x57504b	Серый (обводка)
-// 0x41281C	Синий тёмный (заполнение)
-// 0x593726	Синий тёмный (обводка)
+///////////////	ГЏГЂГ‹Г€Г’ГђГЂ
+// 0x93F258	Г‡ГҐГ«ВёГ­Г»Г© Г¬ГїГЈГЄГЁГ© (Г¤Г«Гї ГІГҐГЄГ±ГІГ )
+// 0xDFB8FC	ГђГ®Г§Г®ГўГ»Г© Г¬ГїГЈГЄГЁГ© (Г¤Г«Гї ГІГҐГЄГ±ГІГ )
+// 0xFCB8C0	Г”ГЁГ®Г«ГҐГІГ®ГўГ»Г© Г¬ГїГЈГЄГЁГ© (Г¤Г«Гї ГІГҐГЄГ±ГІГ )
+// 0xf76356	Г”ГЁГ®Г«ГҐГІГ®ГўГ»Г© Г­Г Г±Г»Г№ГҐГ­Г­Г»Г©
+// 0xDA9F9C	Г”ГЁГ®Г«ГҐГІГ®ГўГ»Г© ГЎГ«ГҐГ¤Г­Г»Г©
+// 0x2A1711	Г”ГЁГ®Г«ГҐГІГ®ГўГ»Г© ГІВёГ¬Г­Г»Г©
+// 0x00FFFF	Г†ВёГ«ГІГ»Г© (Г¤Г«Гї Г¤ГЁГ ГЈГ­Г®Г±ГІГЁГЄГЁ)
+// 0x57504b	Г‘ГҐГ°Г»Г© (Г®ГЎГўГ®Г¤ГЄГ )
+// 0x41281C	Г‘ГЁГ­ГЁГ© ГІВёГ¬Г­Г»Г© (Г§Г ГЇГ®Г«Г­ГҐГ­ГЁГҐ)
+// 0x593726	Г‘ГЁГ­ГЁГ© ГІВёГ¬Г­Г»Г© (Г®ГЎГўГ®Г¤ГЄГ )
 
 
-/////////////// Основное окно
+/////////////// ГЋГ±Г­Г®ГўГ­Г®ГҐ Г®ГЄГ­Г®
 MAINWND_TEXT_COLOR			= 0xffffff
 MAINWND_WX					= 1280
 MAINWND_WY					= 720
@@ -33,13 +33,13 @@ MAINWND_BITMAP_ANCHOR			= top_left
 MAINWND_BITMAP_FILL			= center
 
 
-////////////////////// Шрифт
+////////////////////// ГГ°ГЁГґГІ
 FONT_NAME					= "Calibri"
 FONT_SIZE					= 16
 
 
-/////////////// Фон панелей
-PANEL_INSIDE_COLOR			= 0xFF000000	// Цвета в порядке BGR + прозрачность
+/////////////// Г”Г®Г­ ГЇГ Г­ГҐГ«ГҐГ©
+PANEL_INSIDE_COLOR			= 0xFF000000	// Г–ГўГҐГІГ  Гў ГЇГ®Г°ГїГ¤ГЄГҐ BGR + ГЇГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј
 PANEL_OUTLINE_ROUND			= 0
 PANEL_OUTLINE_WIDTH			= 0
 PANEL_OUTLINE_COLOR			= 0xAD7C78
@@ -47,13 +47,13 @@ PANEL_BITMAP_FILENAME			= "silence\semi.webp"
 PANEL_BITMAP_FILL			= hstr_vstr
 
 
-/////////////// Панель информации о системе
+/////////////// ГЏГ Г­ГҐГ«Гј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г® Г±ГЁГ±ГІГҐГ¬ГҐ
 PANEL1_OFSX				= 209
 PANEL1_OFSY				= 10
 PANEL1_WX					= -620
 
 
-/////////////// Ненужная панель, скрыта слева от логотипа
+/////////////// ГЌГҐГ­ГіГ¦Г­Г Гї ГЇГ Г­ГҐГ«Гј, Г±ГЄГ°Г»ГІГ  Г±Г«ГҐГўГ  Г®ГІ Г«Г®ГЈГ®ГІГЁГЇГ 
 PANEL2_OFSX				= -1
 PANEL2_OFSY				= -1
 PANEL2_WX					= -1
@@ -63,35 +63,35 @@ PANEL2_OUTLINE_WIDTH			= 0
 PANEL2_BITMAP_FILENAME		= ""
 
 
-/////////////// Панель языка, темы, режима эксперта
+/////////////// ГЏГ Г­ГҐГ«Гј ГїГ§Г»ГЄГ , ГІГҐГ¬Г», Г°ГҐГ¦ГЁГ¬Г  ГЅГЄГ±ГЇГҐГ°ГІГ 
 PANEL3_OFSY				= -140
 PANEL3_WX					= 188
 PANEL3_WY					= 20
 
 
-/////////////// Действия
+/////////////// Г„ГҐГ©Г±ГІГўГЁГї
 PANEL4_OFSY				= 183
 
 
-/////////////// Нашлись в драйверпаках
+/////////////// ГЌГ ГёГ«ГЁГ±Гј Гў Г¤Г°Г Г©ГўГҐГ°ГЇГ ГЄГ Гµ
 PANEL5_OFSY				= 275
 
 
-/////////////// Нет в драйверпаках
+/////////////// ГЌГҐГІ Гў Г¤Г°Г Г©ГўГҐГ°ГЇГ ГЄГ Гµ
 PANEL6_OFSY				= 430
 
 
-/////////////// Скрытая панель
+/////////////// Г‘ГЄГ°Г»ГІГ Гї ГЇГ Г­ГҐГ«Гј
 PANEL7_OFSY				= 600
 
 
-/////////////// Версия SDI
+/////////////// Г‚ГҐГ°Г±ГЁГї SDI
 PANEL8_OFSX				= 10
 PANEL8_OFSY				= -30
 PANEL8_BITMAP_FILENAME		= ""
 
 
-/////////////// Кнопка "Установить"
+/////////////// ГЉГ­Г®ГЇГЄГ  "Г“Г±ГІГ Г­Г®ГўГЁГІГј"
 PANEL9_OFSX				= -172
 PANEL9_OFSY				= 10
 PANEL9_WX					= 165
@@ -102,7 +102,7 @@ PANEL9_OUTLINE_WIDTH			= 0
 PANEL9_BITMAP_FILENAME		= "silence\semi25.webp"
 
 
-/////////////// Кнопка "Выделить всё"
+/////////////// ГЉГ­Г®ГЇГЄГ  "Г‚Г»Г¤ГҐГ«ГЁГІГј ГўГ±Вё"
 PANEL10_OFSX				= -337
 PANEL10_OFSY				= 10
 PANEL10_WX					= 160
@@ -111,7 +111,7 @@ PANEL10_OUTLINE_WIDTH			= 0
 PANEL10_BITMAP_FILENAME		= "silence\semi25.webp"
 
 
-/////////////// Кнопка "Снять выделение"
+/////////////// ГЉГ­Г®ГЇГЄГ  "Г‘Г­ГїГІГј ГўГ»Г¤ГҐГ«ГҐГ­ГЁГҐ"
 PANEL11_OFSX				= PANEL10_OFSX
 PANEL11_OFSY				= 46
 PANEL11_WX					= PANEL10_WX
@@ -120,14 +120,14 @@ PANEL11_OUTLINE_WIDTH			= 0
 PANEL11_BITMAP_FILENAME		= "silence\semi25.webp"
 
 
-/////////////// Панель "Опции"
+/////////////// ГЏГ Г­ГҐГ«Гј "ГЋГЇГ¶ГЁГЁ"
 PANEL12_OFSX				= -614
 PANEL12_OFSY				= 10
 PANEL12_WX					= 272
 PANEL12_WY					= PANEL_WY
 
 
-/////////////// Логотип
+/////////////// Г‹Г®ГЈГ®ГІГЁГЇ
 PANEL13_OFSX				= 13
 PANEL13_OFSY				= 13
 PANEL13_WX					= 180
@@ -138,7 +138,7 @@ PANEL13_OUTLINE_WIDTH			= 0
 PANEL13_BITMAP_FILENAME		= "silence\ico1.webp"
 
 
-/////////////// Чекбоксы
+/////////////// Г—ГҐГЄГЎГ®ГЄГ±Г»
 CHKBOX_TEXT_COLOR			= 0xFFFFFF
 CHKBOX_TEXT_COLOR_H			= 0xFCB8C0
 BUTTON_BITMAP_CHECKED			= "silence\checked.webp"
@@ -147,7 +147,7 @@ BUTTON_BITMAP_UNCHECKED		= "silence\unchecked.webp"
 BUTTON_BITMAP_UNCHECKED_H		= "silence\unchecked.webp"
 
 
-/////////////// Активные кнопки (Действия + Установить + Выделения)
+/////////////// ГЂГЄГІГЁГўГ­Г»ГҐ ГЄГ­Г®ГЇГЄГЁ (Г„ГҐГ©Г±ГІГўГЁГї + Г“Г±ГІГ Г­Г®ГўГЁГІГј + Г‚Г»Г¤ГҐГ«ГҐГ­ГЁГї)
 BUTTON_OUTLINE_WIDTH			= 0
 BUTTON_OUTLINE_ROUND			= 0
 BUTTON_OUTLINE_WIDTH_H		= 0
@@ -164,7 +164,7 @@ BUTTON_BITMAP_ANCHOR_H		= top_left
 BUTTON_BITMAP_FILL_H			= center
 
 
-/////////////// Блок списка драйверов
+/////////////// ГЃГ«Г®ГЄ Г±ГЇГЁГ±ГЄГ  Г¤Г°Г Г©ГўГҐГ°Г®Гў
 DRVLIST_OFSX				= 210
 DRVLIST_OFSY				= 85
 DRVLIST_WX					= -7
@@ -177,7 +177,7 @@ DRVLIST_BITMAP_FILENAME		= "silence\semi.webp"
 DRVLIST_BITMAP_FILL			= hstr_vstr
 
 
-/////////////// Конкретный драйвер
+/////////////// ГЉГ®Г­ГЄГ°ГҐГІГ­Г»Г© Г¤Г°Г Г©ГўГҐГ°
 DRVITEM_OUTLINE_WIDTH			= 0
 DRVITEM_OUTLINE_WIDTH_H		= 0
 DRVITEM_OUTLINE_COLOR			= 0xDA9F9C
@@ -186,67 +186,67 @@ DRVITEM_OUTLINE_ROUND			= 0
 DRVITEM_OUTLINE_ROUND_H		= 0
 DRVITEM_INSIDE_COLOR			= 0xFF000000
 DRVITEM_INSIDE_COLOR_H		= 0xFF000000
-DRVITEM_BITMAP_FILENAME		= "silence\semi.webp"		// Вызывает баг с фоном у названия архива
+DRVITEM_BITMAP_FILENAME		= "silence\semi.webp"		// Г‚Г»Г§Г»ГўГ ГҐГІ ГЎГ ГЈ Г± ГґГ®Г­Г®Г¬ Гі Г­Г Г§ГўГ Г­ГЁГї Г Г°ГµГЁГўГ 
 DRVITEM_BITMAP_FILENAME_H		= "silence\semi25.webp"
 DRVITEM_BITMAP_FILL			= hstr_vstr
 DRVITEM_BITMAP_FILL_H			= hstr_vstr
 
 
-/////////////// ЕСТЬ В ДРАЙВЕРПАКЕ
+/////////////// Г…Г‘Г’Гњ Г‚ Г„ГђГЂГ‰Г‚Г…ГђГЏГЂГЉГ…
 // P*	
-// B*	Better	- Доступно обновление (более подходящее)
-// S*	Same		- Уже установлен в системе
-// W*	Worse		- Доступно обновление (более подходящее, но старее)
+// B*	Better	- Г„Г®Г±ГІГіГЇГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ (ГЎГ®Г«ГҐГҐ ГЇГ®Г¤ГµГ®Г¤ГїГ№ГҐГҐ)
+// S*	Same		- Г“Г¦ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­ Гў Г±ГЁГ±ГІГҐГ¬ГҐ
+// W*	Worse		- Г„Г®Г±ГІГіГЇГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ (ГЎГ®Г«ГҐГҐ ГЇГ®Г¤ГµГ®Г¤ГїГ№ГҐГҐ, Г­Г® Г±ГІГ Г°ГҐГҐ)
 
-// *N	New		- Новые
-// *C	Current	- Актуальное
-// *O	Old		- Старые
+// *N	New		- ГЌГ®ГўГ»ГҐ
+// *C	Current	- ГЂГЄГІГіГ Г«ГјГ­Г®ГҐ
+// *O	Old		- Г‘ГІГ Г°Г»ГҐ
 
 DRVITEM_TEXT1_COLOR			= 0xFFFFFF
 DRVITEM_TEXT2_COLOR			= 0x93F258
 
-// NEW - Новые
+// NEW - ГЌГ®ГўГ»ГҐ
 DRVITEM_TEXT1_COLOR_PN		= 0xFFFFFF
-DRVITEM_TEXT2_COLOR_PN		= 0xFCB8C0		// Имя архива
+DRVITEM_TEXT2_COLOR_PN		= 0xFCB8C0		// Г€Г¬Гї Г Г°ГµГЁГўГ 
 DRVITEM_TEXT2_COLOR_BN		= 0xFCB8C0
 DRVITEM_TEXT2_COLOR_SN		= 0x93F258
 DRVITEM_TEXT2_COLOR_WN		= 0xFFdfc7
 
-// CURRENT - Актуальные
-DRVITEM_TEXT2_COLOR_PС		= 0x00FFFF
-DRVITEM_TEXT2_COLOR_BC		= 0xFCB8C0		// Доступно обновление (более подходящее)
-DRVITEM_TEXT2_COLOR_SC		= 0x93F258		// Уже установлен в системе
+// CURRENT - ГЂГЄГІГіГ Г«ГјГ­Г»ГҐ
+DRVITEM_TEXT2_COLOR_PГ‘		= 0x00FFFF
+DRVITEM_TEXT2_COLOR_BC		= 0xFCB8C0		// Г„Г®Г±ГІГіГЇГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ (ГЎГ®Г«ГҐГҐ ГЇГ®Г¤ГµГ®Г¤ГїГ№ГҐГҐ)
+DRVITEM_TEXT2_COLOR_SC		= 0x93F258		// Г“Г¦ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­ Гў Г±ГЁГ±ГІГҐГ¬ГҐ
 DRVITEM_TEXT2_COLOR_WC		= 0x00FFFF
 
-// OLD - Старые
+// OLD - Г‘ГІГ Г°Г»ГҐ
 DRVITEM_TEXT2_COLOR_PO		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_BO		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_SO		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_WO		= 0xDFB8FC
 
-// INVALID - Не подходящие
+// INVALID - ГЌГҐ ГЇГ®Г¤ГµГ®Г¤ГїГ№ГЁГҐ
 DRVITEM_TEXT2_COLOR_IN		= 0xDFB8FC
 
 
-/////////////// НЕТ В ДРАЙВЕРПАКАХ
+/////////////// ГЌГ…Г’ Г‚ Г„ГђГЂГ‰Г‚Г…ГђГЏГЂГЉГЂГ•
 
-// MS - Не установленные
+// MS - ГЌГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»ГҐ
 DRVITEM_TEXT2_COLOR_MS		= 0xFFFFFF
 
-// NU - Неизвестные
+// NU - ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г»ГҐ
 DRVITEM_TEXT1_COLOR_NU		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_NU		= 0xDFB8FC
 DRVITEM_INSIDE_COLOR_NU		= 0xFF000000
 DRVITEM_INSIDE_COLOR_NU_H		= 0xFF000000
 
-// NS - Стандартные
+// NS - Г‘ГІГ Г­Г¤Г Г°ГІГ­Г»ГҐ
 DRVITEM_TEXT1_COLOR_NS		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_NS		= 0x93F258
 DRVITEM_INSIDE_COLOR_NS		= 0xFF000000
 DRVITEM_INSIDE_COLOR_NS_H		= 0xFF000000
 
 
-/////////////// Всплывающее окно
+/////////////// Г‚Г±ГЇГ«Г»ГўГ ГѕГ№ГҐГҐ Г®ГЄГ­Г®
 //POPUP_BITMAP_FILENAME		= "silence\main.webp"
 //POPUP_BITMAP_FILL			= hstr_vstr
 POPUP_TRANSPARENCY			= 245
@@ -258,7 +258,7 @@ POPUP_INSIDE_COLOR			= 0x41281C
 //POPUP_FONT_SIZE			= 13
 
 
-/////////////// Всплывающее окно, сравнение
+/////////////// Г‚Г±ГЇГ«Г»ГўГ ГѕГ№ГҐГҐ Г®ГЄГ­Г®, Г±Г°Г ГўГ­ГҐГ­ГЁГҐ
 //POPUP_HWID_COLOR			= 0x6331de
 POPUP_CMP_BETTER_COLOR		= 0x93F258
 POPUP_CMP_INVALID_COLOR		= 0xDFB8FC
@@ -271,14 +271,14 @@ POPUP_CMP_INVALID_COLOR		= 0xDFB8FC
 //POPUP_LST_SELECTED_COLOR 	= 0xffffff
 
 
-/////////////// Шкала прогресса (active)
+/////////////// ГГЄГ Г«Г  ГЇГ°Г®ГЈГ°ГҐГ±Г±Г  (active)
 PROGR_INSIDE_COLOR			= 0x41281C
 PROGR_TEXT_COLOR				= 0xFFFFFF
 PROGR_OUTLINE_WIDTH			= 0
 PROGR_OUTLINE_ROUND			= 0
 
 
-/////////////// Установка завершена
+/////////////// Г“Г±ГІГ Г­Г®ГўГЄГ  Г§Г ГўГҐГ°ГёГҐГ­Г 
 DRVITEM_INSIDE_COLOR_D1		= 0x41281C
 DRVITEM_INSIDE_COLOR_D1_H		= 0x41281C
 DRVITEM_TEXT1_COLOR_D1		= 0xFFFFFF
@@ -289,7 +289,7 @@ DRVITEM_OUTLINE_WIDTH_D1		= 1
 DRVITEM_OUTLINE_WIDTH_D1_H		= 1
 
 
-/////////////// Установка завершена (требуется перезагрузка)
+/////////////// Г“Г±ГІГ Г­Г®ГўГЄГ  Г§Г ГўГҐГ°ГёГҐГ­Г  (ГІГ°ГҐГЎГіГҐГІГ±Гї ГЇГҐГ°ГҐГ§Г ГЈГ°ГіГ§ГЄГ )
 DRVITEM_INSIDE_COLOR_D2		= 0x41281C
 DRVITEM_INSIDE_COLOR_D2_H		= 0x41281C
 DRVITEM_OUTLINE_COLOR_D2    	= 0x593726
@@ -300,11 +300,11 @@ DRVITEM_TEXT1_COLOR_D2		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_D2		= 0xDA9F9C
 
 
-/////////////// Ошибка установки драйвера
+/////////////// ГЋГёГЁГЎГЄГ  ГіГ±ГІГ Г­Г®ГўГЄГЁ Г¤Г°Г Г©ГўГҐГ°Г 
 DRVITEM_INSIDE_COLOR_DE     	= 0xDFB8FC
 
 
-/////////////// Драйверы в актуальном состоянии && Доступны обновления из интернета
+/////////////// Г„Г°Г Г©ГўГҐГ°Г» Гў Г ГЄГІГіГ Г«ГјГ­Г®Г¬ Г±Г®Г±ГІГ®ГїГ­ГЁГЁ && Г„Г®Г±ГІГіГЇГ­Г» Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЁГ§ ГЁГ­ГІГҐГ°Г­ГҐГІГ 
 DRVITEM_INSIDE_COLOR_IU		= 0x41281C
 DRVITEM_INSIDE_COLOR_IU_H   	= 0x41281C
 DRVITEM_OUTLINE_COLOR_IU    	= 0x593726
@@ -315,7 +315,7 @@ DRVITEM_TEXT1_COLOR_IU		= 0xFFFFFF
 DRVITEM_TEXT2_COLOR_IU		= 0x93F258
 
 
-/////////////// Иконка выпадающего списка
+/////////////// Г€ГЄГ®Г­ГЄГ  ГўГ»ГЇГ Г¤Г ГѕГ№ГҐГЈГ® Г±ГЇГЁГ±ГЄГ 
 //ITEM_CHECKBOX_SIZE       	= 24
 ITEM_EXPAND_UP				= "silence\spoiler.webp"
 ITEM_EXPAND_UP_H				= "silence\spoiler.webp"
